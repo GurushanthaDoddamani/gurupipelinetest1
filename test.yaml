@@ -1,1 +1,8 @@
+trigger:
+  branches:
+    include:
+      - main
 
+variables:
+  - group: github-token
+  - name: pool
